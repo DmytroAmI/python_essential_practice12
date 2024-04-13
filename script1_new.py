@@ -6,14 +6,8 @@
 """
 
 
-class Rectangle:
-    def __init__(self, width, height):
-        self.width = width
-        self.height = height
-
-    def area(self):
-        return self.width * self.height
+def area(width, height):
+    return width * height
 
 
-r1 = Rectangle(2, 4)
-print(r1.area())
+print(area(2, 4))
